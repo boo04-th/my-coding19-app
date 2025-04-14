@@ -1,3 +1,4 @@
+//Importing tools from React: useState to manage values
 import React, { useState } from "react";
 
 //TourCard renders individual gallery details
@@ -22,4 +23,4 @@ function TourCard({ id, name, price, info, image, onRemove }) {
     )
  }
 
- export default TourCard;
+ export default TourCard; //Exporting the TourCard component so it can be used in Gallery.jsx

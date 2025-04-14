@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import TourCard from './TourCard';
+//Task 2 - Fetch and render tour list with useEffect and state
+import React, { useEffect, useState } from 'react'; //Importing tools from React: useState to manage value
+import TourCard from './TourCard'; //Importing the TourCard component
 
 // GalleryList is responsible for fetching tours and rendering the list
 const Gallery = ({ tours, setTours, onRemove }) => {
@@ -69,4 +70,5 @@ const Gallery = ({ tours, setTours, onRemove }) => {
   );
 };
 
-export default Gallery;
+export default Gallery; //Exporting the Gallery component so it can be used in other files like App.jsx
+
